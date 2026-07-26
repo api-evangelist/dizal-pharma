@@ -1,8 +1,34 @@
 aid: dizal-pharma
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dizal-pharma.png
 name: Dizal Pharma
-description: 'Dizal Pharma is a company surfaced as a portfolio company of hongshan and added to the API
-  Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  Dizal Pharma (Dizal (Jiangsu) Pharmaceutical Co., Ltd.) is a clinical-stage
+  biopharmaceutical company focused on discovering and developing novel
+  medicines in oncology and immunology. Originating in 2017 from research
+  capabilities established in China, the company operates research and
+  development across Shanghai and Wuxi (Jiangsu), China, and is listed on the
+  Shanghai Stock Exchange STAR Market (ticker 688192). Dizal's most advanced
+  programs include sunvozertinib (DZD9008), an oral EGFR exon 20 insertion
+  inhibitor for non-small cell lung cancer marketed as Zegfrovy, and
+  golidocitinib (DZD4205), a selective JAK1 inhibitor developed for
+  relapsed/refractory peripheral T-cell lymphoma. Dizal Pharma was surfaced in
+  the API Evangelist network as a portfolio company of the venture firm
+  HongShan (formerly Sequoia Capital China). As a pharmaceutical developer it
+  publishes a corporate marketing and investor-facing website but does not
+  expose a public developer platform, API program, or machine-readable API
+  artifacts at this time; this profile captures the company identity for the
+  network.
 url: https://raw.githubusercontent.com/api-evangelist/dizal-pharma/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +38,38 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Healthcare
+- Pharmaceutical
+- Biotechnology
+- Oncology
+- Immunology
+- Drug Development
+- Clinical Research
+- Life Sciences
 apis: []
+common:
+- type: DomainSecurity
+  url: security/dizal-pharma-domain-security.yml
+- type: Website
+  url: https://www.dizalpharma.com
+- type: About
+  url: https://www.dizalpharma.com/about
+- type: Blog
+  url: https://www.dizalpharma.com/news
+- type: Careers
+  url: https://www.dizalpharma.com/careers
+- type: Contact
+  url: https://www.dizalpharma.com/contact
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
